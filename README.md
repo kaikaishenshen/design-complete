@@ -1,3 +1,9 @@
+<div align="center">
+
+🌐 English · [中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md)
+
+</div>
+
 # Design Complete
 
 > Unified Frontend Design Quality System — taste + impeccable = complete
@@ -241,9 +247,3 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ---
 
-## Language Links
-
-- [English](README.md)
-- [中文](README.zh-CN.md)
-- [日本語](README.ja.md)
-- [한국어](README.ko.md)

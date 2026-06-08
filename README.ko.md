@@ -1,3 +1,9 @@
+<div align="center">
+
+🌐 [English](./README.md) · [中文](./README.zh-CN.md) · [日本語](./README.ja.md) · 한국어
+
+</div>
+
 # Design Complete（디자인 컴플리트）
 
 > 통합 프론트엔드 디자인 품질 시스템 — 감각 + 구조 = 완성
@@ -100,9 +106,3 @@ Design Complete 자체는 **MIT 라이선스**로 출시되었습니다.
 
 ---
 
-## 언어
-
-- [English](README.md)
-- [中文](README.zh-CN.md)
-- [日本語](README.ja.md)
-- [한국어](README.ko.md)
