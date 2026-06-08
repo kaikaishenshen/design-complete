@@ -1,0 +1,55 @@
+{
+  "app": {
+    "name": "Design Complete",
+    "tagline": "統合フロントエンドデザイン品質システム",
+    "description": "taste-skill（美的センス）と impeccable（構造的厳密性）を統合したパイプライン"
+  },
+  "pipeline": {
+    "phase1": "品：デザインセンス診断",
+    "phase1_desc": "要件の読み取り、3つのダイヤル設定、デザイン方向の決定",
+    "phase2": "建：構造実装",
+    "phase2_desc": "impeccable による形状/構築（センスに基づく方向性）",
+    "phase3": "検：品質監査",
+    "phase3_desc": "監査 + 評価 + アンチパターン検出",
+    "phase4": "修：磨き上げ",
+    "phase4_desc": "研磨 + ダイヤル調整 + 最終品質チェック",
+    "full_pipeline": "完全パイプライン：品 → 建 → 検 → 修"
+  },
+  "commands": {
+    "craft": "完全パイプライン",
+    "taste": "デザインセンス診断のみ",
+    "build": "センスに基づく構築",
+    "check": "品質監査 + 評価",
+    "critique": "UXデザインレビュー（ヒューリスティックスコア付き）",
+    "audit": "技術品質チェック（a11y/パフォーマンス/レスポンシブ）",
+    "refine": "研磨 + アンチパターン修正",
+    "tune": "taste-skill の3つのダイヤルをリアルタイム調整",
+    "init": "プロジェクトデザインコンテキストの初期化",
+    "document": "既存コードからDESIGN.mdを生成",
+    "bolder": "保守的または平坦なデザインを増幅",
+    "quieter": "攻撃的なデザインを抑制",
+    "distill": "本質に絞り込み、複雑さを除去",
+    "animate": "目的を持ったアニメーションを追加",
+    "colorize": "戦略的な色彩を導入",
+    "layout": "レイアウト、スペーシング、リズムを修正",
+    "typeset": "タイポグラフィとフォントを改善",
+    "adapt": "異なるデバイスに適応",
+    "harden": "本番対応：エラー処理、i18n、エッジケース",
+    "clarify": "UXコピーとラベルを改善",
+    "delight": "個性と記憶に残るタッチを追加"
+  },
+  "dials": {
+    "design_variance": "デザイン分散",
+    "motion_intensity": "モーション強度",
+    "visual_density": "視覚密度",
+    "variance_desc": "1 = 完全対称、10 = 芸術的カオス",
+    "motion_desc": "1 = 静的、10 = 映画的/物理的",
+    "density_desc": "1 = ギャラリー/余白豊か、10 = コックピット/高密度"
+  },
+  "conflict_resolution": {
+    "p0": "P0：エンジニアリング（最優先）",
+    "p1": "P1：美的感覚",
+    "p2": "P2：UXルール",
+    "p3": "P3：スタイル好み"
+  }
+}

@@ -1,0 +1,36 @@
+name: Validate Skills
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/skills/**'
+      - 'src/i18n/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/skills/**'
+      - 'src/i18n/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate skill files
+        run: npm run validate-skills
+
+      - name: Check i18n consistency
+        run: node scripts/check-i18n.mjs
+
+      - name: Run tests
+        run: npm test

@@ -1,0 +1,55 @@
+{
+  "app": {
+    "name": "Design Complete",
+    "tagline": "통합 프론트엔드 디자인 품질 시스템",
+    "description": "taste-skill(미적 감각)과 impeccable(구조적 엄격성)을 결합한 파이프라인"
+  },
+  "pipeline": {
+    "phase1": "품：디자인 감각 진단",
+    "phase1_desc": "브리프 해석, 3개 다이얼 설정, 디자인 방향 결정",
+    "phase2": "건：구조적 구현",
+    "phase2_desc": "impeccable 셰이프/크래프트 (감각 기반 방향)",
+    "phase3": "검：품질 감사",
+    "phase3_desc": "감사 + 비평 + 안티패턴 탐지",
+    "phase4": "수：마무리 및 다듬기",
+    "phase4_desc": "폴리시 + 다이얼 조정 + 최종 품질 패스",
+    "full_pipeline": "전체 파이프라인：품 → 건 → 검 → 수"
+  },
+  "commands": {
+    "craft": "전체 파이프라인",
+    "taste": "디자인 감각 진단만",
+    "build": "감각 기반 구축",
+    "check": "품질 감사 + 비평",
+    "critique": "UX 디자인 리뷰 (휴리스틱 스코어)",
+    "audit": "기술 품질 검사 (a11y/성능/반응형)",
+    "refine": "폴리시 + 안티패턴 수정",
+    "tune": "taste-skill 3개 다이얼 실시간 조정",
+    "init": "프로젝트 디자인 컨텍스트 초기화",
+    "document": "기존 코드에서 DESIGN.md 생성",
+    "bolder": "보수적이거나 평범한 디자인 증폭",
+    "quieter": "과격한 디자인 억제",
+    "distill": "본질로 축소, 복잡성 제거",
+    "animate": "목적 있는 애니메이션 추가",
+    "colorize": "전략적 색상 도입",
+    "layout": "레이아웃, 간격, 리듬 수정",
+    "typeset": "타이포그래피 및 폰트 개선",
+    "adapt": "다양한 디바이스에 적응",
+    "harden": "프로덕션 준비: 오류 처리, i18n, 엣지케이스",
+    "clarify": "UX 카피 및 라벨 개선",
+    "delight": "개성과 기억에 남는 터치 추가"
+  },
+  "dials": {
+    "design_variance": "디자인 분산",
+    "motion_intensity": "모션 강도",
+    "visual_density": "시각 밀도",
+    "variance_desc": "1 = 완벽 대칭, 10 = 예술적 혼돈",
+    "motion_desc": "1 = 정적, 10 = 영화적/물리적",
+    "density_desc": "1 = 갤러리/여유, 10 = 칵핏/밀집"
+  },
+  "conflict_resolution": {
+    "p0": "P0: 엔지니어링 (최우선)",
+    "p1": "P1: 미적 감각",
+    "p2": "P2: UX 규칙",
+    "p3": "P3: 스타일 선호도"
+  }
+}

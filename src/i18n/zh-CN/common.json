@@ -1,0 +1,74 @@
+{
+  "app": {
+    "name": "Design Complete",
+    "tagline": "统一前端设计质量系统",
+    "description": "结合 taste-skill（审美品味）与 impeccable（结构严谨性）的完整流水线"
+  },
+  "pipeline": {
+    "phase1": "品：设计品味诊断",
+    "phase1_desc": "读盘解读、设三旋钮、定设计方向",
+    "phase2": "建：结构实现",
+    "phase2_desc": "impeccable 塑形/构建，以品味方向为指导",
+    "phase3": "验：质量审计",
+    "phase3_desc": "审计 + 评审 + 反模式检测",
+    "phase4": "修：打磨完善",
+    "phase4_desc": "打磨 + 旋钮调整 + 最终质量 pass",
+    "full_pipeline": "完整流水线：品 → 建 → 验 → 修"
+  },
+  "commands": {
+    "craft": "全流水线：设计读盘 → 塑形 → 审计 → 打磨",
+    "taste": "仅设计品味诊断",
+    "build": "带品味指导的构建",
+    "check": "质量审计 + 评审",
+    "critique": "UX 设计评审及启发式评分",
+    "audit": "技术质量检查（无障碍/性能/响应式）",
+    "refine": "打磨 + 反模式修复",
+    "tune": "实时调整 taste-skill 三旋钮",
+    "init": "初始化项目设计上下文",
+    "document": "从现有代码生成 DESIGN.md",
+    "bolder": "放大保守或平淡的设计",
+    "quieter": "压低过于激进的设计",
+    "distill": "剥离到本质，移除复杂性",
+    "animate": "添加有目的性的动效",
+    "colorize": "引入战略性色彩",
+    "layout": "修正布局、间距与节奏",
+    "typeset": "改进排版和字体层级",
+    "adapt": "适配不同设备与屏幕尺寸",
+    "harden": "生产化：错误处理、国际化、边界情况",
+    "clarify": "改进 UX 文案和标签",
+    "delight": "增加个性和令人愉悦的细节"
+  },
+  "dials": {
+    "design_variance": "设计方差",
+    "motion_intensity": "动效强度",
+    "visual_density": "视觉密度",
+    "variance_desc": "1 = 完美对称，10 = 艺术混乱",
+    "motion_desc": "1 = 静态，10 = 电影级物理动效",
+    "density_desc": "1 = 画廊式留白，10 = 驾驶舱级密度"
+  },
+  "vibes": {
+    "ethereal_glass": "空灵玻璃感",
+    "editorial_luxury": "编辑式奢华",
+    "soft_structuralism": "柔和结构主义"
+  },
+  "layouts": {
+    "asymmetrical_bento": "不对称便当盒",
+    "z_axis_cascade": "Z 轴瀑布",
+    "editorial_split": "编辑式分割"
+  },
+  "conflict_resolution": {
+    "p0": "P0：工程规范（最高优先级）",
+    "p1": "P1：审美规则",
+    "p2": "P2：UX 规则",
+    "p3": "P3：风格偏好"
+  },
+  "install": {
+    "title": "安装指南",
+    "step1": "克隆此仓库",
+    "step2": "安装依赖",
+    "step3": "验证安装",
+    "workbuddy": "WorkBuddy：将 skills 放入 .workbuddy/skills/",
+    "cursor": "Cursor：将 skills 放入 .cursor/skills/",
+    "claude": "Claude Code：将 skills 放入 .claude/skills/"
+  }
+}

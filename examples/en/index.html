@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Complete - Example App</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Geist', 'SF Pro Display', -apple-system, sans-serif;
+      background: oklch(98% 0.005 260);
+      color: oklch(20% 0.01 260);
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: clamp(2rem, 5vw, 4rem); }
+    header {
+      padding: clamp(4rem, 10vh, 8rem) 0 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      color: oklch(15% 0.02 260);
+    }
+    .subtitle {
+      font-size: 1.25rem;
+      color: oklch(45% 0.02 260);
+      margin-top: 1rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* Bento Grid — Asymmetrical layout (taste-skill vibe) */
+    .bento {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      gap: 1.5rem;
+      margin-top: 4rem;
+    }
+    .card {
+      background: oklch(100% 0 0);
+      border: 1px solid oklch(92% 0.005 260);
+      border-radius: 12px;
+      padding: clamp(1.5rem, 3vw, 2.5rem);
+      transition: box-shadow 200ms ease-out;
+    }
+    .card:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+    .card-large { grid-column: span 2; grid-row: span 2; }
+    .card-wide { grid-column: span 3; }
+    .card-tall { grid-row: span 2; }
+    .card h2 {
+      font-size: clamp(1.25rem, 2vw, 1.75rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+      color: oklch(18% 0.015 260);
+    }
+    .card p {
+      color: oklch(48% 0.01 260);
+      font-size: 1rem;
+      max-width: 65ch;
+    }
+    /* CTA Button — taste-skill spec */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background: oklch(18% 0.02 260);
+      color: oklch(100% 0 0);
+      border: none;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 200ms, transform 150ms;
+    }
+    .btn:hover { background: oklch(30% 0.02 260); }
+    .btn:active { transform: scale(0.98); }
+    /* Status badge — taste-skill spec */
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .badge-blue { background: oklch(95% 0.015 250); color: oklch(40% 0.12 250); }
+    .badge-green { background: oklch(95% 0.015 140); color: oklch(35% 0.08 140); }
+    .tag {
+      font-size: 0.813rem;
+      color: oklch(45% 0.02 260);
+      font-weight: 500;
+    }
+    /* Footer — WCAG compliant divider */
+    footer {
+      margin-top: 6rem;
+      padding: 2rem 0;
+      border-top: 1px solid oklch(92% 0.005 260);
+      text-align: center;
+      color: oklch(50% 0.01 260);
+      font-size: 0.875rem;
+    }
+    /* Responsive — mobile collapse (impeccable rule) */
+    @media (max-width: 768px) {
+      .bento { grid-template-columns: 1fr; }
+      .card-large, .card-wide, .card-tall { grid-column: span 1; grid-row: span 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .card { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Design With Confidence</h1>
+      <p class="subtitle">A complete design quality pipeline that ensures every interface passes both the taste check and the structural check.</p>
+    </header>
+
+    <div class="bento">
+      <!-- Card 1: Large — 2x2 -->
+      <div class="card card-large">
+        <span class="badge badge-blue">Design</span>
+        <h2>Taste-Skill Integration</h2>
+        <p>Three dials that control every aesthetic decision. Design Variance, Motion Intensity, and Visual Density
+           work together to ensure your interface never looks like an AI template.</p>
+        <p style="margin-top: 1rem;">
+          <span class="tag">Variance: 8</span> &nbsp;
+          <span class="tag">Motion: 6</span> &nbsp;
+          <span class="tag">Density: 4</span>
+        </p>
+      </div>
+
+      <!-- Card 2: Standard -->
+      <div class="card">
+        <span class="badge badge-green">Quality</span>
+        <h2>23 Commands</h2>
+        <p>From craft to polish, from audit to delight — every step of the design journey has a dedicated command.</p>
+      </div>
+
+      <!-- Card 3: Wide — 3 columns -->
+      <div class="card card-wide">
+        <h2>Anti-Pattern Detection</h2>
+        <p>39 rules automatically catch AI slop patterns: gradient text, side-stripe borders, nested cards, overused fonts,
+           and more. Every rule has a documented replacement strategy.</p>
+        <button class="btn" style="margin-top: 1rem;">Audit Now</button>
+      </div>
+
+      <!-- Card 4: Standard -->
+      <div class="card">
+        <h2>Accessibility First</h2>
+        <p>Every design passes WCAG AA contrast checks (≥4.5:1 body, ≥3:1 large text). Reduced motion alternatives
+           built in by default.</p>
+      </div>
+
+      <!-- Card 5: Tall — 2 rows -->
+      <div class="card card-tall">
+        <h2>Conflict Resolution</h2>
+        <p>When aesthetic taste and structural rules collide:</p>
+        <p style="margin-top: 0.75rem;">
+          <strong>P0</strong>: Engineering rules<br>
+          <strong>P1</strong>: Aesthetic rules<br>
+          <strong>P2</strong>: UX rules<br>
+          <strong>P3</strong>: Style preference
+        </p>
+      </div>
+
+      <!-- Card 6: Standard -->
+      <div class="card">
+        <h2>4-Language Support</h2>
+        <p>All documentation, commands, and tooling available in English, Chinese, Japanese, and Korean.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Built with Design Complete — taste + impeccable = complete</p>
+      <p style="margin-top: 0.5rem; font-size: 0.75rem;">MIT License · Open Source</p>
+    </footer>
+  </div>
+
+  <!-- Scroll-reveal animation (taste-skill Section 7 pattern) -->
+  <script>
+    const cards = document.querySelectorAll('.card');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          const index = Array.from(cards).indexOf(entry.target);
+          entry.target.style.transition = `opacity 600ms cubic-bezier(0.16, 1, 0.3, 1) ${index * 80}ms, transform 600ms cubic-bezier(0.16, 1, 0.3, 1) ${index * 80}ms`;
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    cards.forEach(card => {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(12px)';
+      observer.observe(card);
+    });
+  </script>
+</body>
+</html>

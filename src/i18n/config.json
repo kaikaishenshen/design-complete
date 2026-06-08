@@ -1,0 +1,16 @@
+{
+  "locales": ["en", "zh-CN", "ja", "ko"],
+  "defaultLocale": "en",
+  "fallbackLocale": "en",
+  "namespaces": ["common", "skills", "docs"],
+  "resourcePath": "./src/i18n/{{locale}}/{{namespace}}.json",
+  "detection": {
+    "order": ["querystring", "path", "header", "navigator"],
+    "lookupQuerystring": "lang",
+    "lookupFromPathIndex": 0
+  },
+  "interpolation": {
+    "prefix": "{{",
+    "suffix": "}}"
+  }
+}

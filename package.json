@@ -1,0 +1,64 @@
+{
+  "name": "design-complete",
+  "version": "1.0.0",
+  "description": "Unified frontend design quality system combining taste-skill (aesthetic taste) and impeccable (structural rigor). A complete pipeline: taste → build → check → refine.",
+  "main": "src/index.mjs",
+  "bin": {
+    "design": "./scripts/design-cli.mjs"
+  },
+  "scripts": {
+    "test": "node tests/runner.mjs",
+    "lint": "eslint src/",
+    "build": "node scripts/build.mjs",
+    "release": "node scripts/release.mjs",
+    "validate-skills": "node scripts/validate-skills.mjs",
+    "docs:build": "node scripts/build-docs.mjs"
+  },
+  "keywords": [
+    "frontend",
+    "design",
+    "design-system",
+    "ui-ux",
+    "accessibility",
+    "anti-patterns",
+    "design-quality",
+    "taste-skill",
+    "impeccable",
+    "frontend-design",
+    "design-tool",
+    "ai-design",
+    "workbuddy-skill",
+    "codebuddy-skill",
+    "cursor-skill",
+    "claude-skill"
+  ],
+  "author": "Design Complete Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/design-complete/design-complete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/design-complete/design-complete/issues"
+  },
+  "homepage": "https://github.com/design-complete/design-complete#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "impeccable": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  },
+  "files": [
+    "src/",
+    "scripts/",
+    "examples/",
+    "docs/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ]
+}

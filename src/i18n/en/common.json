@@ -1,0 +1,74 @@
+{
+  "app": {
+    "name": "Design Complete",
+    "tagline": "Unified Frontend Design Quality System",
+    "description": "Combining taste-skill (aesthetic taste) and impeccable (structural rigor) into one pipeline"
+  },
+  "pipeline": {
+    "phase1": "TASTE: Design Taste Diagnosis",
+    "phase1_desc": "Read the brief, set 3 dials, choose design direction",
+    "phase2": "BUILD: Structural Implementation",
+    "phase2_desc": "impeccable shape/craft with taste-informed direction",
+    "phase3": "CHECK: Quality Audit",
+    "phase3_desc": "Audit + critique + anti-pattern detection",
+    "phase4": "REFINE: Polish & Deliver",
+    "phase4_desc": "Polish + dial adjustment + final quality pass",
+    "full_pipeline": "Full Pipeline: taste → build → check → refine"
+  },
+  "commands": {
+    "craft": "Full pipeline: design read → shape → audit → polish",
+    "taste": "Design taste diagnosis only",
+    "build": "Build with taste-informed direction",
+    "check": "Quality audit + critique",
+    "critique": "UX design review with heuristic scoring",
+    "audit": "Technical quality check (a11y/perf/responsive)",
+    "refine": "Polish + anti-pattern fixes",
+    "tune": "Adjust taste-skill 3 dials in real-time",
+    "init": "Initialize project design context",
+    "document": "Generate DESIGN.md from existing code",
+    "bolder": "Amplify safe or bland designs",
+    "quieter": "Tone down aggressive designs",
+    "distill": "Strip to essence, remove complexity",
+    "animate": "Add purposeful animations",
+    "colorize": "Introduce strategic color",
+    "layout": "Fix layout, spacing, rhythm",
+    "typeset": "Improve typography and fonts",
+    "adapt": "Adapt for different devices",
+    "harden": "Production-ready: errors, i18n, edge cases",
+    "clarify": "Improve UX copy and labels",
+    "delight": "Add personality and memorable touches"
+  },
+  "dials": {
+    "design_variance": "Design Variance",
+    "motion_intensity": "Motion Intensity",
+    "visual_density": "Visual Density",
+    "variance_desc": "1 = Perfect Symmetry, 10 = Artsy Chaos",
+    "motion_desc": "1 = Static, 10 = Cinematic / Physics",
+    "density_desc": "1 = Art Gallery / Airy, 10 = Cockpit / Packed Data"
+  },
+  "vibes": {
+    "ethereal_glass": "Ethereal Glass",
+    "editorial_luxury": "Editorial Luxury",
+    "soft_structuralism": "Soft Structuralism"
+  },
+  "layouts": {
+    "asymmetrical_bento": "Asymmetrical Bento",
+    "z_axis_cascade": "Z-Axis Cascade",
+    "editorial_split": "Editorial Split"
+  },
+  "conflict_resolution": {
+    "p0": "P0: Engineering (highest)",
+    "p1": "P1: Aesthetic",
+    "p2": "P2: UX Rules",
+    "p3": "P3: Style Preference"
+  },
+  "install": {
+    "title": "Installation",
+    "step1": "Clone this repository",
+    "step2": "Install dependencies",
+    "step3": "Validate installation",
+    "workbuddy": "WorkBuddy: Place skills in .workbuddy/skills/",
+    "cursor": "Cursor: Place skills in .cursor/skills/",
+    "claude": "Claude Code: Place skills in .claude/skills/"
+  }
+}
