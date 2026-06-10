@@ -65,7 +65,7 @@
   "install": {
     "title": "安装指南",
     "step1": "克隆此仓库",
-    "step2": "安装依赖",
+    "step2": "安装依赖（npm ci 实现可复现构建）",
     "step3": "验证安装",
     "workbuddy": "WorkBuddy：将 skills 放入 .workbuddy/skills/",
     "cursor": "Cursor：将 skills 放入 .cursor/skills/",

@@ -65,7 +65,7 @@
   "install": {
     "title": "Installation",
     "step1": "Clone this repository",
-    "step2": "Install dependencies",
+    "step2": "Install dependencies (npm ci for reproducible builds)",
     "step3": "Validate installation",
     "workbuddy": "WorkBuddy: Place skills in .workbuddy/skills/",
     "cursor": "Cursor: Place skills in .cursor/skills/",
