@@ -51,5 +51,24 @@
     "p1": "P1：美的感覚",
     "p2": "P2：UXルール",
     "p3": "P3：スタイル好み"
+  },
+  "vibes": {
+    "ethereal_glass": "エーテリアルガラス",
+    "editorial_luxury": "エディトリアルラグジュアリー",
+    "soft_structuralism": "ソフト構造主義"
+  },
+  "layouts": {
+    "asymmetrical_bento": "非対称弁当箱",
+    "z_axis_cascade": "Z軸カスケード",
+    "editorial_split": "エディトリアルスプリット"
+  },
+  "install": {
+    "title": "インストール",
+    "step1": "このリポジトリをクローン",
+    "step2": "依存関係をインストール（npm ci で再現性のあるビルド）",
+    "step3": "インストールを検証",
+    "workbuddy": "WorkBuddy：スキルを .workbuddy/skills/ に配置",
+    "cursor": "Cursor：スキルを .cursor/skills/ に配置",
+    "claude": "Claude Code：スキルを .claude/skills/ に配置"
   }
 }

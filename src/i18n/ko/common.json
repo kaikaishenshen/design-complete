@@ -51,5 +51,24 @@
     "p1": "P1: 미적 감각",
     "p2": "P2: UX 규칙",
     "p3": "P3: 스타일 선호도"
+  },
+  "vibes": {
+    "ethereal_glass": "에테리얼 글라스",
+    "editorial_luxury": "에디토리얼 럭셔리",
+    "soft_structuralism": "소프트 구조주의"
+  },
+  "layouts": {
+    "asymmetrical_bento": "비대칭 벤토",
+    "z_axis_cascade": "Z축 캐스케이드",
+    "editorial_split": "에디토리얼 스플릿"
+  },
+  "install": {
+    "title": "설치",
+    "step1": "저장소 복제",
+    "step2": "의존성 설치 (npm ci로 재현 가능한 빌드)",
+    "step3": "설치 확인",
+    "workbuddy": "WorkBuddy: 스킬을 .workbuddy/skills/에 배치",
+    "cursor": "Cursor: 스킬을 .cursor/skills/에 배치",
+    "claude": "Claude Code: 스킬을 .claude/skills/에 배치"
   }
 }
